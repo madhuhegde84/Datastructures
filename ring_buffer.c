@@ -8,7 +8,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-#define RING_SIZE 256  // Ring size Power of 2 for efficient modulo
+#define RING_SIZE 256  // Power of 2 for efficient modulo
 
 typedef struct {
     uint8_t *data;
