@@ -2,6 +2,7 @@
 /**
  * Ring Buffer Implementation for WLAN Packet Descriptors
  * Used in: TX/RX descriptor rings, DMA buffers
+ * This is template only for reference.
  */
 
 #include <stdint.h>
