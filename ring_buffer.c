@@ -28,7 +28,7 @@ typedef struct {
 } ring_buffer_t;
 
 /**
- * Initialize ring buffer
+ * Initialization of ring buffer
  */
 void ring_init(ring_buffer_t *ring, uint32_t size) {
     ring->buffer = (packet_desc_t *)malloc(size * sizeof(packet_desc_t));
